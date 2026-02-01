@@ -1,0 +1,179 @@
+{
+    "LocaleLayout": {
+        "name": "SSLS | Superior Solutions Logistic Services",
+        "short_name": "SSLS",
+        "description": "Your trusted supply chain partner in KSA and the GCC region. We deliver logistics, warehousing, and transportation solutions.",
+        "keywords": [
+            "SSLS",
+            "Superior Solutions",
+            "Logistics",
+            "Supply Chain",
+            "Warehousing",
+            "Transportation",
+            "Saudi Arabia",
+            "KSA",
+            "Al Khobar",
+            "GCC",
+            "Freight",
+            "Customs Clearance",
+            "3PL"
+        ]
+    },
+    "Header": {
+        "nav": {
+            "home": "Home",
+            "about": "About",
+            "services": "Services",
+            "whyUs": "Why Us",
+            "contact": "Contact"
+        },
+        "cta": "Get a Quote"
+    },
+    "Footer": {
+        "description": "Superior Solutions Logistic Services makes your business flow. Founded in Saudi Arabia, we are one of the Kingdom's leading logistics management companies.",
+        "quickLinks": "Quick Links",
+        "contactUs": "Contact Us",
+        "links": {
+            "about": "About Us",
+            "services": "Our Services",
+            "whyUs": "Why Choose Us",
+            "contact": "Contact Us"
+        },
+        "rights": "All rights reserved.",
+        "tagline": "We Deliver"
+    },
+    "WhatsApp": {
+        "tooltip": "Contact us via WhatsApp"
+    },
+    "IndexPage": {
+        "hero": {
+            "badge": "Your Supply Chain Partner",
+            "title": "Superior Solutions Logistic Services",
+            "tagline": "We Deliver",
+            "description": "Your trusted supply chain partner in KSA and the GCC region. We provide comprehensive logistics, warehousing, and transportation solutions tailored to your business needs.",
+            "cta": {
+                "primary": "Our Services",
+                "secondary": "Contact Us"
+            }
+        },
+        "about": {
+            "sectionLabel": "About SSLS",
+            "title": "Making Your Business Flow",
+            "description1": "Superior Solutions Logistic Services makes your business flow. Founded in the Kingdom of Saudi Arabia, we are one of the Kingdom's leading logistics management companies, custom designing and implementing industry-leading solutions.",
+            "description2": "Our corporate headquarters, located in the Eastern region of Saudi Arabia, provides the advantage of strong connections with major road, air, and ocean carriers, enabling customers to enjoy competitive rates and reliable international logistics services.",
+            "description3": "At SSLS, we don't have clients – we have strategic business partners. We are committed to developing long-term collaborative partnerships. No matter how big or small your shipment, we have a proven track record to deliver.",
+            "vision": {
+                "title": "Our Vision",
+                "description": "To be the instinctively chosen supply chain partner in KSA, the GCC region and beyond, through unparalleled service, industry knowledge and cutting edge solutions for any challenges clients may face."
+            },
+            "mission": {
+                "title": "Our Mission",
+                "description": "An unswerving commitment to drive continuous service improvement, with world-class technology, superlative infrastructure, and engaged human capital, which delivers environmentally responsible supply chain solutions to our business partners."
+            }
+        },
+        "services": {
+            "sectionLabel": "What We Offer",
+            "title": "Our Services",
+            "subtitle": "Comprehensive logistics solutions tailored to your business needs",
+            "logistics": {
+                "title": "Logistics & Transportation",
+                "description": "End-to-end transportation solutions across land, sea, and air",
+                "items": {
+                    "transport": "Standard & Breakbulk Transportation",
+                    "oceanFreight": "Ocean Freight",
+                    "crossBorder": "Cross Border GCC",
+                    "domestic": "Domestic Distribution",
+                    "packing": "Seaworthy Packing (Wooden Boxes, Box Repairs)",
+                    "metalContainers": "Metal Containers",
+                    "heavyEquipment": "Heavy Equipment Handling",
+                    "customs": "Import, Export & Customs Clearance",
+                    "supplyChain": "Supply Chain Solutions"
+                }
+            },
+            "warehouse": {
+                "title": "Warehouse & Storage",
+                "description": "Flexible warehousing solutions scaled to your needs",
+                "items": {
+                    "lease": "Warehouse Lease Services",
+                    "racking": "Racking Systems & Pipe Racks",
+                    "preservation": "Packing & Preservation",
+                    "complete": "Complete Warehouse Solutions"
+                }
+            },
+            "technical": {
+                "title": "Technical & Industrial",
+                "description": "Professional technical and industrial support services",
+                "items": {
+                    "projectManagement": "Project Management",
+                    "civilWorks": "Civil Works",
+                    "hvac": "HVAC Solutions",
+                    "manpower": "Skilled Manpower"
+                }
+            },
+            "trading": {
+                "title": "General Trading",
+                "description": "Quality supplies for your business operations",
+                "items": {
+                    "officeSupplies": "Office Supplies",
+                    "industrialProducts": "Industrial Products"
+                }
+            }
+        },
+        "stats": {
+            "countries": {
+                "label": "Countries Served",
+                "description": "Global reach across multiple regions"
+            },
+            "clients": {
+                "label": "Satisfied Clients",
+                "description": "Trusted by businesses worldwide"
+            },
+            "shipments": {
+                "label": "Shipments Delivered",
+                "description": "Successful deliveries and counting"
+            },
+            "experience": {
+                "label": "Years Experience",
+                "description": "Decades of industry expertise"
+            }
+        },
+        "whyChooseUs": {
+            "sectionLabel": "Why SSLS",
+            "title": "Why Choose Us?",
+            "subtitle": "We combine industry expertise with customer-centered approach to deliver exceptional supply chain solutions.",
+            "global": {
+                "title": "Global Reach",
+                "description": "Strong connections with major road, air, and ocean carriers worldwide enabling competitive rates and reliable services."
+            },
+            "reliable": {
+                "title": "Reliable Service",
+                "description": "Proven track record of on-time delivery with secure and professional supply chain solutions every time."
+            },
+            "fast": {
+                "title": "Fast Delivery",
+                "description": "Strategic hub locations enabling same-day and next-day service with flexible capacity for peak demands."
+            },
+            "partnership": {
+                "title": "Strategic Partnership",
+                "description": "We don't have clients – we have strategic business partners committed to long-term collaborative success."
+            },
+            "solutions": {
+                "title": "Custom Solutions",
+                "description": "Tailored logistics solutions from simple transport to complex operations, designed for your unique requirements."
+            },
+            "quality": {
+                "title": "Quality Standards",
+                "description": "World-class technology, superlative infrastructure, and engaged human capital delivering excellence."
+            }
+        },
+        "cta": {
+            "sectionLabel": "Get in Touch",
+            "title": "Ready to Get Started?",
+            "description": "Contact us today to discuss your logistics needs. Our team is ready to provide you with a customized solution that meets your business requirements.",
+            "phone": "Phone",
+            "email": "Email",
+            "address": "Address",
+            "ctaButton": "Contact via WhatsApp"
+        }
+    }
+}
