@@ -74,9 +74,21 @@ export default function Hero() {
                     variants={staggerContainer}
                     className="mx-auto max-w-4xl text-center"
                 >
+                    {/* Logo */}
+                    <m.div variants={fadeInUp} className="mb-6 flex justify-center">
+                        <Image
+                            src="/logo.png"
+                            alt="SSLS Logo"
+                            width={200}
+                            height={80}
+                            priority
+                            className="h-20 w-auto"
+                        />
+                    </m.div>
+
                     {/* Badge */}
                     <m.div variants={fadeInUp} className="mb-6">
-                        <span className="inline-block bg-primary/20 px-4 py-1.5 text-sm font-medium text-primary backdrop-blur-sm border border-primary/30">
+                        <span className="inline-block bg-white/10 px-4 py-1.5 text-sm font-medium text-white backdrop-blur-sm border border-white/30">
                             {t("badge")}
                         </span>
                     </m.div>

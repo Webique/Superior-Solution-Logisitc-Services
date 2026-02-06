@@ -87,15 +87,7 @@ export default function Header() {
                     aria-label="Main navigation"
                 >
                     {/* Logo */}
-                    <Logo
-                        className={cn(
-                            "transition-all duration-300",
-                            !isScrolled &&
-                            isHomePage &&
-                            !isMobileMenuOpen &&
-                            "brightness-0 invert"
-                        )}
-                    />
+                    <Logo className="transition-all duration-300" />
 
                     {/* Desktop Navigation */}
                     <div className="hidden items-center gap-1 lg:flex xl:gap-2">
