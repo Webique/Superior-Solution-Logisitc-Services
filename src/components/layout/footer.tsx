@@ -12,17 +12,17 @@ export default function Footer() {
 
     return (
         <footer className="bg-secondary text-white">
-            <div className="layout py-16">
+            <div className="layout py-10 sm:py-16">
                 <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
                     {/* Brand */}
-                    <div className="lg:col-span-2">
+                    <div className="lg:col-span-2 text-center sm:text-start">
                         <h3 className="text-2xl font-bold text-white mb-4">
                             SSLS
                         </h3>
                         <p className="text-white/70 max-w-md mb-6">
                             {t("description")}
                         </p>
-                        <div className="flex gap-4">
+                        <div className="flex gap-4 justify-center sm:justify-start">
                             <a
                                 href={siteConfig.links.whatsapp}
                                 target="_blank"
@@ -109,11 +109,11 @@ export default function Footer() {
                 </div>
 
                 {/* Bottom Bar */}
-                <div className="mt-12 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
-                    <p className="text-white/50 text-sm">
+                <div className="mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-center">
+                    <p className="text-white/50 text-xs sm:text-sm">
                         © {currentYear} SSLS. {t("rights")}
                     </p>
-                    <p className="text-white/50 text-sm">
+                    <p className="text-white/50 text-xs sm:text-sm">
                         {t("tagline")}
                     </p>
                 </div>

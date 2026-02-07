@@ -33,7 +33,7 @@ export default function WhyChooseUs() {
     const t = useTranslations("IndexPage.whyChooseUs");
 
     return (
-        <section id="why-us" className="py-20 lg:py-32 bg-muted">
+        <section id="why-us" className="py-16 md:py-20 lg:py-32 bg-muted">
             <div className="layout">
                 {/* Header */}
                 <m.div
@@ -54,7 +54,7 @@ export default function WhyChooseUs() {
                     </m.span>
                     <m.h2
                         variants={fadeInUp}
-                        className="text-3xl lg:text-4xl font-bold text-secondary mb-4"
+                        className="text-2xl sm:text-3xl lg:text-4xl font-bold text-secondary mb-4"
                     >
                         {t("title")}
                     </m.h2>
@@ -75,7 +75,7 @@ export default function WhyChooseUs() {
                         hidden: {},
                         visible: { transition: { staggerChildren: 0.1 } }
                     }}
-                    className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
+                    className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8"
                 >
                     {features.map((feature) => {
                         const Icon = feature.icon;
@@ -83,7 +83,7 @@ export default function WhyChooseUs() {
                             <m.div
                                 key={feature.key}
                                 variants={fadeInUp}
-                                className="group bg-card p-6 transition-all hover:shadow-elegant"
+                                className="group bg-card p-5 sm:p-6 transition-all hover:shadow-elegant"
                             >
                                 <div className="flex h-12 w-12 items-center justify-center bg-primary/10 text-primary mb-4 transition-colors group-hover:bg-primary group-hover:text-white">
                                     <Icon className="h-6 w-6" />

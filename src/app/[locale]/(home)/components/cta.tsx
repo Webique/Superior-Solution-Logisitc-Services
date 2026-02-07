@@ -20,9 +20,9 @@ export default function CTA() {
     const t = useTranslations("IndexPage.cta");
 
     return (
-        <section id="contact" className="py-20 lg:py-32">
+        <section id="contact" className="py-16 md:py-20 lg:py-32">
             <div className="layout">
-                <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
+                <div className="grid lg:grid-cols-2 gap-8 md:gap-12 lg:gap-20">
                     {/* CTA Content */}
                     <m.div
                         initial="hidden"
@@ -41,7 +41,7 @@ export default function CTA() {
                         </m.span>
                         <m.h2
                             variants={fadeInUp}
-                            className="text-3xl lg:text-4xl font-bold text-secondary mb-6"
+                            className="text-2xl sm:text-3xl lg:text-4xl font-bold text-secondary mb-6"
                         >
                             {t("title")}
                         </m.h2>
@@ -97,7 +97,7 @@ export default function CTA() {
                         <m.div variants={fadeInUp}>
                             <Button
                                 size="xl"
-                                className="bg-primary hover:bg-primary/90 rounded-none"
+                                className="bg-primary hover:bg-primary/90 rounded-none w-full sm:w-auto"
                                 asChild
                             >
                                 <a
@@ -119,7 +119,7 @@ export default function CTA() {
                         variants={fadeInUp}
                         className="relative"
                     >
-                        <div className="relative aspect-square lg:aspect-[4/5] overflow-hidden bg-muted">
+                        <div className="relative aspect-[16/9] sm:aspect-square lg:aspect-[4/5] overflow-hidden bg-muted">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57269.86684082!2d50.15!3d26.29!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49e6d8f7a64e4d%3A0x2a42e52e3d7a9c5a!2sAl%20Khobar%2C%20Saudi%20Arabia!5e0!3m2!1sen!2s!4v1234567890"
                                 width="100%"

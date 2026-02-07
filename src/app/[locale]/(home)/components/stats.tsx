@@ -71,7 +71,7 @@ export default function Stats() {
     const t = useTranslations("IndexPage.stats");
 
     return (
-        <section className="py-20 lg:py-24 bg-secondary">
+        <section className="py-16 md:py-20 lg:py-24 bg-secondary">
             <div className="layout">
                 <m.div
                     initial="hidden"
@@ -81,7 +81,7 @@ export default function Stats() {
                         hidden: {},
                         visible: { transition: { staggerChildren: 0.1 } }
                     }}
-                    className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12"
+                    className="grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 lg:gap-12"
                 >
                     {stats.map((stat) => (
                         <m.div
@@ -89,10 +89,10 @@ export default function Stats() {
                             variants={fadeInUp}
                             className="text-center"
                         >
-                            <div className="text-4xl lg:text-5xl font-bold text-primary mb-2">
+                            <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary mb-2">
                                 <AnimatedCounter end={stat.value} suffix={stat.suffix} />
                             </div>
-                            <div className="text-white/80 font-medium">
+                            <div className="text-white/80 font-medium text-sm sm:text-base">
                                 {t(`${stat.key}.label`)}
                             </div>
                             <div className="text-white/50 text-sm mt-1">

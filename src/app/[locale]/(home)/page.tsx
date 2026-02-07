@@ -4,12 +4,18 @@ import type { Locale } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { use } from "react";
 
+import { routing } from "@/i18n/routing.public";
+
 import About from "./components/about";
 import CTA from "./components/cta";
 import Hero from "./components/hero";
 import Services from "./components/services";
 import Stats from "./components/stats";
 import WhyChooseUs from "./components/why-choose-us";
+
+export function generateStaticParams() {
+    return routing.locales.map((locale) => ({ locale }));
+}
 
 export default function IndexPage({ params }: PageProps) {
     const { locale } = use(params);

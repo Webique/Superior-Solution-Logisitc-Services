@@ -83,7 +83,7 @@ export default function Header() {
                 )}
             >
                 <nav
-                    className="layout flex items-center justify-between py-4"
+                    className="layout flex items-center justify-between py-3 sm:py-4"
                     aria-label="Main navigation"
                 >
                     {/* Logo */}

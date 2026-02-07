@@ -131,10 +131,10 @@ function MobileServices({ t }: { t: any }) {
                         whileInView="visible"
                         viewport={{ once: true }}
                         variants={fadeInUp}
-                        className="flex min-h-[80vh] flex-col"
+                        className="flex flex-col"
                     >
                         {/* Image - Top */}
-                        <div className="relative h-[40vh]">
+                        <div className="relative h-[30vh] sm:h-[40vh]">
                             <Image
                                 src={service.image}
                                 alt={t(`${service.key}.title`)}
@@ -164,7 +164,7 @@ function MobileServices({ t }: { t: any }) {
                                 <p className="text-muted-foreground max-w-md text-base leading-relaxed mb-4">
                                     {t(`${service.key}.description`)}
                                 </p>
-                                <ul className="grid grid-cols-2 gap-2">
+                                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                                     {service.items.map((item) => (
                                         <li
                                             key={item}

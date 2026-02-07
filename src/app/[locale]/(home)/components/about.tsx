@@ -18,7 +18,7 @@ export default function About() {
     const t = useTranslations("IndexPage.about");
 
     return (
-        <section id="about" className="py-20 lg:py-32 bg-muted">
+        <section id="about" className="py-16 md:py-20 lg:py-32 bg-muted">
             <div className="layout">
                 <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                     {/* Image */}
@@ -38,7 +38,7 @@ export default function About() {
                             />
                         </div>
                         {/* Floating accent */}
-                        <div className="absolute -bottom-6 -end-6 w-32 h-32 bg-primary/10 -z-10" />
+                        <div className="absolute -bottom-6 -end-6 w-32 h-32 bg-primary/10 -z-10 hidden sm:block" />
                     </m.div>
 
                     {/* Content */}
@@ -59,7 +59,7 @@ export default function About() {
                         </m.span>
                         <m.h2
                             variants={fadeInUp}
-                            className="text-3xl lg:text-4xl font-bold text-secondary mb-6"
+                            className="text-2xl sm:text-3xl lg:text-4xl font-bold text-secondary mb-6"
                         >
                             {t("title")}
                         </m.h2>
@@ -83,7 +83,7 @@ export default function About() {
                         </m.p>
 
                         {/* Vision & Mission */}
-                        <div className="grid sm:grid-cols-2 gap-6">
+                        <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">
                             <m.div
                                 variants={fadeInUp}
                                 className="bg-background p-6 border-s-4 border-primary"

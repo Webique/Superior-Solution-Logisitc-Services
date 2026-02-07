@@ -3,7 +3,6 @@
 import * as m from "motion/react-m";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { useState } from "react";
 
 import { Button } from "@/components/ui/button";
 import { useVideoAutoplay } from "@/hooks/use-video-autoplay";
@@ -28,12 +27,11 @@ const staggerContainer = {
 
 export default function Hero() {
     const t = useTranslations("IndexPage.hero");
-    const [videoLoaded, setVideoLoaded] = useState(false);
-    const { videoRef } = useVideoAutoplay();
+    const { videoRef, isLoaded: videoLoaded } = useVideoAutoplay();
 
     return (
         <section
-            className="relative min-h-[700px] overflow-hidden sm:min-h-[600px] lg:min-h-screen"
+            className="relative min-h-svh overflow-hidden"
             aria-labelledby="hero-title"
         >
             {/* Video Background */}
@@ -52,7 +50,6 @@ export default function Hero() {
                     muted
                     loop
                     playsInline
-                    onLoadedData={() => setVideoLoaded(true)}
                     className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-500 ${videoLoaded ? "opacity-100" : "opacity-0"}`}
                 >
                     <source src="/videos/hero.mp4" type="video/mp4" />
@@ -67,7 +64,7 @@ export default function Hero() {
             </div>
 
             {/* Content */}
-            <div className="layout relative z-10 flex min-h-[700px] items-center py-20 pt-24 sm:min-h-[600px] lg:min-h-screen">
+            <div className="layout relative z-10 flex min-h-svh items-center py-20 pt-20 sm:pt-24">
                 <m.div
                     initial="hidden"
                     animate="visible"
@@ -82,7 +79,7 @@ export default function Hero() {
                             width={200}
                             height={80}
                             priority
-                            className="h-20 w-auto"
+                            className="h-14 w-auto sm:h-16 lg:h-20"
                         />
                     </m.div>
 
@@ -97,7 +94,7 @@ export default function Hero() {
                     <m.h1
                         id="hero-title"
                         variants={fadeInUp}
-                        className="mb-4 text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl"
+                        className="mb-4 text-3xl font-bold leading-tight tracking-tight text-white sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl"
                     >
                         {t("title")}
                     </m.h1>
@@ -105,7 +102,7 @@ export default function Hero() {
                     {/* Tagline */}
                     <m.p
                         variants={fadeInUp}
-                        className="mb-6 text-2xl font-semibold text-white sm:text-3xl"
+                        className="mb-6 text-xl font-semibold text-white sm:text-2xl md:text-3xl"
                     >
                         {t("tagline")}
                     </m.p>
@@ -113,7 +110,7 @@ export default function Hero() {
                     {/* Description */}
                     <m.p
                         variants={fadeInUp}
-                        className="mx-auto mb-10 max-w-2xl text-lg leading-relaxed text-white/80 md:text-xl"
+                        className="mx-auto mb-10 max-w-2xl text-base leading-relaxed text-white/80 sm:text-lg md:text-xl"
                     >
                         {t("description")}
                     </m.p>
