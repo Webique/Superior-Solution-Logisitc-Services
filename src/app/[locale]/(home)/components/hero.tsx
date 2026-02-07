@@ -72,7 +72,7 @@ export default function Hero() {
                     className="mx-auto max-w-4xl text-center"
                 >
                     {/* Logo */}
-                    <m.div variants={fadeInUp} className="mb-6 flex justify-center">
+                    <m.div variants={fadeInUp} className="mb-6 flex flex-col items-center">
                         <Image
                             src="/logo.png"
                             alt="SSLS Logo"
@@ -81,6 +81,9 @@ export default function Hero() {
                             priority
                             className="h-14 w-auto sm:h-16 lg:h-20"
                         />
+                        <span className="mt-2 text-2xl font-bold tracking-widest text-white sm:text-3xl">
+                            SSLS
+                        </span>
                     </m.div>
 
                     {/* Badge */}
