@@ -105,7 +105,7 @@ export default function Hero() {
                     {/* Tagline */}
                     <m.p
                         variants={fadeInUp}
-                        className="mb-6 text-2xl font-semibold text-primary sm:text-3xl"
+                        className="mb-6 text-2xl font-semibold text-white sm:text-3xl"
                     >
                         {t("tagline")}
                     </m.p>

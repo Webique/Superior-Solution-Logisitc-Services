@@ -27,7 +27,7 @@ const services = [
         number: "01",
         icon: Truck,
         image: "/images/service-logistics.png",
-        items: ["transport", "oceanFreight", "crossBorder", "domestic", "packing", "metalContainers", "heavyEquipment", "customs", "supplyChain"]
+        items: ["transport", "oceanFreight", "crossBorder", "domestic", "seaworthyPacking", "woodenBoxes", "metalContainers", "heavyEquipment", "customs", "supplyChain"]
     },
     {
         key: "warehouse" as const,
@@ -154,7 +154,7 @@ function MobileServices({ t }: { t: any }) {
                                     <div className="flex h-14 w-14 shrink-0 items-center justify-center bg-primary text-white">
                                         <Icon className="h-7 w-7" />
                                     </div>
-                                    <span className="text-primary/20 font-mono text-5xl font-bold">
+                                    <span className="text-primary font-mono text-5xl font-bold">
                                         {service.number}
                                     </span>
                                 </div>
@@ -217,7 +217,7 @@ function DesktopServiceText({
                 <div className="flex h-14 w-14 shrink-0 items-center justify-center bg-primary text-white">
                     <Icon className="h-7 w-7" />
                 </div>
-                <span className="text-primary/20 font-mono text-7xl font-bold">
+                <span className="text-primary font-mono text-7xl font-bold">
                     {service.number}
                 </span>
             </div>
